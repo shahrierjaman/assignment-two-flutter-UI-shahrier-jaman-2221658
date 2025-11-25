@@ -262,13 +262,13 @@ class Home extends StatelessWidget {
 
             Container(
               width: double.infinity,
+              height: 500,
               padding: EdgeInsets.all(16),
               decoration: BoxDecoration(
                 color: Colors.grey.shade100,
                 borderRadius: BorderRadius.circular(16),
               ),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+              child: ListView(
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -651,50 +651,6 @@ class Home extends StatelessWidget {
                         ),
                       ],
                     ),
-                  ),
-
-                  SizedBox(height: 228),
-                  // Transaction 3
-                  Row(
-                    children: [
-                      Container(
-                        padding: EdgeInsets.all(10),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child: Icon(Icons.attach_money, color: Colors.purple),
-                      ),
-                      SizedBox(width: 12),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            "Salary Deposit",
-                            style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          Text(
-                            "Income . Yesterday",
-                            style: TextStyle(
-                              fontSize: 13,
-                              color: Colors.black54,
-                            ),
-                          ),
-                        ],
-                      ),
-                      Spacer(),
-                      Text(
-                        "+\$3500.00",
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.green,
-                        ),
-                      ),
-                    ],
                   ),
                 ],
               ),
