@@ -210,12 +210,7 @@ class Profile extends StatelessWidget {
                   SizedBox(height: 8),
 
                   Text(
-                    "I am a student of Independent University Bangladesh. "
-                    "I am CSE."
-                    "I am CSE."
-                    "I am CSE."
-                    "I am CSE."
-                    "I am CSE.",
+                    "I am a student of Independent University Bangladesh. I am CSE. I am CSE. I am CSE. I am CSE. I am CSE.",
                     style: TextStyle(fontSize: 16),
                   ),
 
